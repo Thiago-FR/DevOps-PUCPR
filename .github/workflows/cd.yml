@@ -15,7 +15,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: project
-          path:
+          path: |
             '**.py'
             README.md
             requirements.txt
