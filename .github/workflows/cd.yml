@@ -16,7 +16,7 @@ jobs:
         with:
           name: project
           path: |
-            '**.py'
+            **.py
             README.md
             requirements.txt
             .gitignore
